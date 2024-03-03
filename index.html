@@ -14,37 +14,41 @@
 
 <body>
     <header>
-        <img src="img/logo.png" alt="logo susdeg">
-        <nav class="mt-1 mx-auto">
-            <a href="#">HOME</a>
-            <a href="#">SOBRE NÓS</a>
-            <a href="#">PROTÓTIPO</a>
-            <a href="#">CONTATO</a>
-        </nav>
-        <a href="#" class="button mt-1 mb-1 mx-auto">Se inscreva</a>
+        <div class="container">
+            <img src="img/logo susdeg lateral.png" alt="logo com nome susdeg">
+            <nav>
+                <a href="#">HOME</a>
+                <a href="#">SOBRE NÓS</a>
+                <a href="#">PROTÓTIPO</a>
+                <a href="#">CONTATO</a>
+            </nav>
+            <a href="#" class="button mt-1 mb-1 mx-auto">Saiba mais</a>
+        </div>
     </header>
 
     <main>
         <section class="app-section">
-            <img src="img/hero-img.svg" alt="imagens da tela do app">
-            <div>
-                <h1 class="mt-2">Crie algo <span class="text-primary decoration" >impactante</span> com música</h1>
-                <p class="mt-2 mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt dolore quasi iusto aut praesentium expedita quam ea totam magni reprehenderit dolor explicabo, repellat iste perspiciatis? Ipsa amet sapiente dolore assumenda!</p>
-                <a href="#" class="button">Comece Agora</a>
+            <div class="container row-reverse">
+                <img src="img/hero-img.svg" alt="imagens da tela do app">
+                <div>
+                    <h1 class="mt-2">Promovendo ações e <span class="text-primary decoration" >premiando</span> mudanças</h1>
+                    <p class="mt-2 mb-2">Transformando engajamento em impacto: unindo pessoas e empresas em uma plataforma de recompensas para um futuro sustentável.</p>
+                    <a href="#" class="button">Comece já!</a>
+                </div>
             </div>
         </section>
 
         <section class="frm-section">
             <div class="cards">
-                <article>
+                <article class="card">
                     <img src="img/piano.png" alt="EDITAR">
-                    <strong>Piano popular</strong>
+                    <strong>Ganhar Prêmios</strong>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam eius corrupti nemo nobis facilis libero rerum quaerat.</p>
                     <a href="#">
                         <img src="img/arrow-right.svg" alt="EDITAR">
                     </a>
                 </article>
-                <article>
+                <article class="card">
                     <img src="img/clef.png" alt="EDITAR">
                     <strong>Teoria Musical</strong>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam eius corrupti nemo nobis facilis libero rerum quaerat.</p>
@@ -52,7 +56,7 @@
                         <img src="img/arrow-right.svg" alt="EDITAR">
                     </a>
                 </article>
-                <article>
+                <article class="card">
                     <img src="img/sax.png" alt="EDITAR">
                     <strong>Sax Alto</strong>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam eius corrupti nemo nobis facilis libero rerum quaerat.</p>
@@ -60,7 +64,7 @@
                         <img src="img/arrow-right.svg" alt="EDITAR">
                     </a>
                 </article>
-                <article>
+                <article class="card">
                     <img src="img/drums.png" alt="EDITAR">
                     <strong>Bateria</strong>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam eius corrupti nemo nobis facilis libero rerum quaerat.</p>
@@ -70,26 +74,29 @@
                 </article>
             </div>
 
-            <h2>E <span class="text-primary">vários</span> outros!</h2>
-            <a href="#">Conhecer outros</a>
+            <h2 class="text-center">E <span class="text-primary">vários</span> outros!</h2>
+            <a href="#" class="button mt-2 mx-auto">Conhecer outros</a>
         </section>
     </main>
 
     <footer>
-        <div>
-            <img src="img/logo.png" alt="susdeg">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatum repellendus. Ipsa sapiente recusandae impedit cum necessitatibus debitis dignissimos officiis, repellendus, culpa facere ipsam magnam repudiandae qui iure praesentium vero!</p>
+        <div class="container">
+            <div class="about-column">
+                <img src="img/logo.png" alt="susdeg" class="mt-1 mb-1">
+                <p class="mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Labore, voluptatum repellendus. Ipsa sapiente!</p>
+            </div>
+            <nav class="mb-2">
+                <a href="#">HOME</a>
+                <a href="#">SOBRE NÓS</a>
+                <a href="#">PROTÓTIPO</a>
+                <a href="#">CONTATO</a>
+            </nav>
+            <form class="neweslatter-form">
+                <label for="email" class="mb-1">Receba materias gratuitos</label>
+                <input type="text" name="email" id="email" class="mb-1" placeholder="Digite o seu e-mail">
+                <button class="button mb-2">Quero receber</button>
+            </form>
         </div>
-        <nav>
-            <a href="#">HOME</a>
-            <a href="#">SOBRE NÓS</a>
-            <a href="#">PROTÓTIPO</a>
-            <a href="#">CONTATO</a>
-        </nav>
-        <form>
-            <label for="email">Receba materias gratuitos</label>
-            <input type="text" name="email" id="email" placeholder="Digite o seu e-mail">
-        </form>
     </footer>
 </body>
 </html>
