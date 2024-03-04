@@ -155,7 +155,7 @@ h2 {
     border: 2px solid var(--color-black);
     box-shadow: 4px 4px 0 var(--color-black);
     max-width: 17rem;
-    padding: 2rem 0 0 2rem;
+    padding: 20px;
 }
 
 .card:nth-child(2n) {
@@ -171,8 +171,32 @@ h2 {
 
 .card a {
     display: block;
-    margin: 3rem 0 0 auto;
+    margin: 0 0 0 auto;
     width: fit-content;
+}
+
+aside {
+    background-color: var(--color-gray);
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 30px 20px;
+    margin: auto;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.268);
+    text-align: center;
+}
+
+aside p {
+    font-size: larger;
+    font-weight: bold;
+    text-indent: 30px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+aside > ul {
+    text-align: left;
+    font-size: larger;
+    padding: 30px 0px 0px 20px;
 }
 
 /* RODAPÉ */
@@ -229,6 +253,12 @@ footer img {
 
 .text-primary {
     color: var(--color-secondary);
+}
+
+.text-secondary {
+    background-color: var(--color-primary);
+    font-weight: bolder;
+    padding: 1px 4px;
 }
 
 .text-center {
