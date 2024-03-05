@@ -199,9 +199,11 @@ aside > ul {
     padding: 30px 0px 0px 20px;
 }
 
+
 /* RODAPÉ */
 
 footer {
+    margin-top: 6rem;
     border-bottom: 0;
     padding: 1rem 1.25rem 4rem;
 }
@@ -226,6 +228,28 @@ footer nav a {
 
 footer img {
     width: 250px;
+}
+
+.prototipo-resume {
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 30px 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.prototipo-resume p {
+    font-size: larger;
+    font-weight: bold;
+    text-indent: 30px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.prototipo-resume > ul {
+    text-align: left;
+    font-size: larger;
+    padding: 30px 0px 0px 20px;
 }
 
 /* UTILITÁRIOS */
@@ -357,7 +381,7 @@ footer img {
 .slider {
     margin: 0 auto;
     width: 800px;
-    height: 800px;
+    height: 700px;
     overflow: hidden;
 }
 
