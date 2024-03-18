@@ -4,163 +4,181 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SUSDEG</title>
-    <link rel="shortcut icon" href="img/favicon black.svg" type="image/x-icon">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon black.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-    <header>
-        <div class="container">
-            <img src="img/logo susdeg lateral.png" alt="logo com nome susdeg">
-            <nav>
-                <a href="#">HOME</a>
-                <a href="#">OBJETIVO</a>
-                <a href="#">PROTÓTIPO</a>
-                <a href="#">CONTATO</a>
-            </nav>
-            <a href="#" class="button mt-1 mb-1 mx-auto">Saiba mais</a>
-        </div>
-    </header>
+    <div class="header" id="header">
+        <button onclick="toggleSidebar()" class="btn-icon-header">
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+            </svg>
+        </button>
 
-    <main>
-        <section class="app-section">
-            <div class="container row-reverse">
-                <img src="img/world e cel 842.svg" alt="personagens cuidando do mundo e interface do app">
-                <div>
-                    <h1 class="mt-2">Promovendo ações e <span class="text-primary decoration" >premiando</span> mudanças</h1>
-                    <p class="mt-2 mb-2">Transformando engajamento em impacto: unindo pessoas e empresas em uma plataforma de recompensas para um futuro sustentável.</p>
+        <div class="logo-header">
+            <img src="assets/img/logo susdeg lateral.png" class="img-logo-header" alt="logo SUSDEG">
+        </div>
+
+        <nav class="navigation-header" id="navigation-header">
+            <button onclick="toggleSidebar()" class="btn-icon-header">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708"/>
+                </svg>
+            </button>
+
+            <a href="#home">Home</a>
+            <a href="#objetivo">Objetivo</a>
+            <a href="#prototipo">Protótipo</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </div>
+
+    <main tabindex="0" onclick="closedSidebar()" class="content" id="content">
+        <article class="home-article" id="home">
+            <section class="home-section">
+                <h1>Promovendo ações e <span class="text-primary" >premiando mudanças</span></h1>
+                <p>Transformando engajamento em impacto: unindo pessoas e empresas em uma plataforma de recompensas para um futuro sustentável.</p>
+                <div class="home-button">
                     <a href="#" class="button">Saiba mais</a>
                 </div>
-            </div>
-        </section>
+            </section>
+    
+            <section class="home-img">
+                <img src="assets/img/WorldCel-M.png" alt="ilustração de pessoas cuidando do mundo e uma interface do app ao lado">
+            </section>
+        </article>
 
-        <section class="frm-section">
-            <div class="cards">
-                <article class="card">
-                    <img src="img/coin.png" alt="moeda">
-                    <strong>Recompensas Tangíveis</strong>
-                    <p>Suas ações são recompensadas com prêmios, descontos exclusivos e moedas convertíveis em dinheiro.</p>
-                    <a href="#">
-                        <img src="img/arrow-right.svg" alt="seta next">
-                    </a>
-                </article>
-                <article class="card">
-                    <img src="img/global.png" alt="user no mundo">
-                    <strong>Reconhecimento Global</strong>
-                    <p>Ganhe visibilidade pelas maiores empresas do mundo através de suas contribuições para um futuro sustentável.</p>
-                    <a href="#">
-                        <img src="img/arrow-right.svg" alt="seta next">
-                    </a>
-                </article>
-                <article class="card">
-                    <img src="img/positive.png" alt="gráfico positivo">
-                    <strong>Plataforma de Impacto</strong>
-                    <p>Participe de uma plataforma revolucionária onde cada interação é uma contribuição pelo bem do planeta.</p>
-                    <a href="#">
-                        <img src="img/arrow-right.svg" alt="seta next">
-                    </a>
-                </article>
-                <article class="card">
-                    <img src="img/networking.png" alt="conexão de users">
-                    <strong>Networking Inclusivo</strong>
-                    <p>Conecte-se com uma comunidade diversificada e engajada, desde líderes de opinião a ativistas locais, expandindo seu networking</p>
-                    <a href="#">
-                        <img src="img/arrow-right.svg" alt="seta next">
-                    </a>
-                </article>
-            </div>
+        <article class="cards-article">
+            <section class="cards">
+                <section class="card" >
+                    <img src="assets/img/coin.png" alt="moeda">
+                        <strong>Recompensas Tangíveis</strong>
+                        <p>Suas ações são recompensadas com prêmios, descontos exclusivos e moedas convertíveis em dinheiro.</p>
+                        <a href="#">
+                            <img src="assets/img/arrow-right.svg" alt="seta next">
+                        </a>
+                </section>
+    
+                <section class="card" >
+                    <img src="assets/img/global.png" alt="user no mundo">
+                        <strong>Reconhecimento Global</strong>
+                        <p>Ganhe visibilidade pelas maiores empresas do mundo através de suas contribuições para um futuro sustentável.</p>
+                        <a href="#">
+                            <img src="assets/img/arrow-right.svg" alt="seta next">
+                        </a>
+                </section>
+    
+                <section class="card" >
+                    <img src="assets/img/positive.png" alt="gráfico positivo">
+                        <strong>Plataforma de Impacto</strong>
+                        <p>Participe de uma plataforma revolucionária onde cada interação é uma contribuição pelo bem do planeta.</p>
+                        <a href="#">
+                            <img src="assets/img/arrow-right.svg" alt="seta next">
+                        </a>
+                </section>
+    
+                <section class="card" >
+                    <img src="assets/img/networking.png" alt="conexão de users">
+                        <strong>Networking Inclusivo</strong>
+                        <p>Conecte-se com uma comunidade diversificada e engajada, desde líderes de opinião a ativistas locais, expandindo seu networking</p>
+                        <a href="#">
+                            <img src="assets/img/arrow-right.svg" alt="seta next">
+                        </a>
+                </section>
+            </section>
+        </article>
 
-            <aside>
-                <h2>Qual nosso <span class="text-primary">objetivo</span>?</h2>
+        <article class="objective-article" id="objetivo">
+            <h1>Qual nosso <span class="text-secondary">objetivo</span>?</h1>
                 <p>Principal intuito é sensibilizar e envolver as pessoas, usando recursos e funções que possibilitam os usuários aprender sobre os objetivos, se engajar em ações que os apoiem, e monitorar o impacto de suas ações. Algumas das funcionalidades que poderiam ser incluídas são:</p>
-                <ul>
+                <ul type="none">
                     <li><span class="text-secondary">Informações sobre as ODS:</span> O aplicativo terá informações sobre os 17 objetivos e as 169 metas das ODS, bem como exemplos concretos de ações que as pessoas podem tomar para apoiá-los. </li>
                     <li><span class="text-secondary">Desafios e recompensas:</span> O aplicativo vai incluir desafios diários e semanais, desafiando as pessoas a tomar ações específicas relacionadas às ODS, e recompensá-las por suas ações, como descontos em produtos, brindes, moedas e reconhecimento público. </li>
                     <li><span class="text-secondary">Monitoramento de impacto:</span> O aplicativo vai ajudar as pessoas a monitorar o impacto de suas ações relacionadas às ODS, fornecendo-lhes informações sobre o impacto ambiental, social e econômico de suas ações.</li>
                     <li><span class="text-secondary">Conectividade com outras pessoas e ONGs:</span> O aplicativo vai permitir que as pessoas se conectem e compartilhem suas ações relacionadas as ODS, permitindo-lhes que se inspirem mutuamente e se colaborem em projetos comunitários.</li>
                     <li><span class="text-secondary">Recursos educativos:</span> O aplicativo vai incluir recursos educativos, como vídeos, infográficos e artigos, para ajudar as pessoas a compreender melhor e sua importância no mundo enquanto recebem recompensas. </li>
                 </ul>
-            </aside>
-        </section>
+        </article>
+         
+        <article class="slider-article" id="prototipo">
 
-        <section class="prototipo-resume">
+            <section class="description-section">
             <h2>Protótipo Inicial</h2>
             <p>O SUSDEG é um aplicativo inovador projetado para unir pessoas de todo o mundo em torno de uma causa comum: promover a sustentabilidade e o desenvolvimento ecológico. Com uma interface amigável e recursos interativos, o SUSDEG visa inspirar ações positivas para um futuro mais verde e justo. Aqui está uma descrição das 10 telas iniciais que esboçam a estrutura e o funcionamento deste aplicativo revolucionário.</p>
-        </section>
+            </section>
 
-        <section>
-            <div>
-                <div class="slider">
-    
-                    <div class="slides">
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-                        <input type="radio" name="radio-btn" id="radio5">
+            <section class="slider-content">
+                <div class="slides fade">
+                    <div class="numbertext"> 1 / 5</div>
+                    <img class="img-slide" src="assets/img/Interface/frm1ini.png" style="width: 100%" alt="iterface do app, tela inicial">
+                    <div class="text">Caption Text</div>
+                </div>
 
-                        <div class="slide first">
-                            <img src="img/Interface/frm1ini.png" alt="interface 1">
-                        </div>
-                        <div class="slide">
-                            <img src="img/Interface/frmcad.png" alt="interface 2">
-                        </div>
-                        <div class="slide">
-                            <img src="img/Interface/frmfoll.png" alt="interface 3">
-                        </div>
-                        <div class="slide">
-                            <img src="img/Interface/frm pesq.png" alt="interface 4">
-                        </div>
-                        <div class="slide">
-                            <img src="img/Interface/frm perfil.png" alt="interface 5">
-                        </div>
+                <div class="slides fade">
+                    <div class="numbertext"> 2 / 5</div>
+                    <img class="img-slide" src="assets/img/Interface/frm perfil.png" style="width: 100%" alt="iterface do app, no perfil">
+                    <div class="text">Caption Text</div>
+                </div>
 
-                        <div class="navigation-auto">
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-                            <div class="auto-btn4"></div>
-                            <div class="auto-btn5"></div>
-                        </div>
-                    </div>
-                    <div class="manual-navigation">
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                        <label for="radio5" class="manual-btn"></label>
-                    </div>
-                    <script src="style/script.js"></script>
-                </div>               
+                <div class="slides fade">
+                    <div class="numbertext"> 3 / 5</div>
+                    <img class="img-slide" src="assets/img/Interface/frm pesq.png" style="width: 100%" alt="iterface dp app, na pesquisa">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="numbertext"> 4 / 5</div>
+                    <img class="img-slide" src="assets/img/Interface/frmfoll.png" style="width: 100%" alt="iterface do app, no follow">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="slides fade">
+                    <div class="numbertext"> 5 / 5</div>
+                    <img class="img-slide" src="assets/img/Interface/frmcad.png" style="width: 100%" alt="iterface do app, no cadastro">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            </section>
+            <br>
+            <div class="div-dot" style="text-align: center;">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
             </div>
-        </section>
-        
-        <h2 class="text-center">Em <span class="text-primary mt-2">breve</span> mais novidades!</h2>
-        <a href="#" class="button mt-2 mx-auto">fique ligado!</a>
+
+            <div class="news">
+                <h1>Em breve mais novidades!</h1>
+                <a href="#" class="button">fique ligado!</a>
+            </div>           
+        </article>
     </main>
 
     <footer>
-        <div class="container">
-            <div class="about-column">
-                <img src="img/logo susdeg lateral.png" alt="susdeg" class="mt-1 mb-1">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/img/logo susdeg lateral.png" class="img-logo-header" alt="logo SUSDEG">
             </div>
-            <nav class="mb-2">
-                <a href="#">HOME</a>
-                <a href="#">SOBRE NÓS</a>
-                <a href="#">PROTÓTIPO</a>
-                <a href="#">CONTATO</a>
-            </nav>
-            <form class="neweslatter-form">
-                <label for="email" class="mb-1">Gostou da ideia? Estamos abertos a parcerias e sugestões!</label>
-                <input type="text" name="email" id="email" class="mb-1" placeholder="Digite o seu e-mail">
-                <button class="button mb-2">Quero apoiar</button>
-            </form>
+
+            <div class="footer-link">
+            <a href="#home">Home</a>
+            <a href="#objetivo">Objetivo</a>
+            <a href="#prototipo">Protótipo</a>
+            <a href="#contato">Contato</a>
+            </div>
         </div>
+
+        <div class="footer-end">
+            <p>Desenvolvido por <a href="https://github.com/luruanx" target="_blank" rel="external" class="externo">luruanx</a> | projeto ADS - UNINTER</p>
+        </div>
+            
     </footer>
 </body>
+
+<script src="assets/script.js"></script>
 </html>
