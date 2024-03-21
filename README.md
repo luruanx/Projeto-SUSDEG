@@ -36,10 +36,8 @@ O objetivo principal deste projeto é a criação de um aplicativo que irá faze
   <img align="center" alt="logo-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg">
   <img align="center" alt="logo-CSS" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg">
 </div>
- <p>
+ <br>
  
-<h1>
-
-</h1>
+https://github.com/luruanx/Projeto-SUSDEG/assets/155588491/4826d1f9-4ae0-4083-b04b-4265d9729e6c
 
 
