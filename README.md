@@ -3,7 +3,7 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luruanx/Projeto-SUSDEG/1cdd9b7de3ede7685009e99718c946335076d9df/assets/img/logo%20susdeg%20white%20300.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luruanx/Projeto-SUSDEG/1cdd9b7de3ede7685009e99718c946335076d9df/assets/img/logo%20susdeg%20black%20300.svg">
-  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="assets/img/logo susdeg white 300.svg">
+  <img alt="logo alternado por modo dark" src="assets/img/logo susdeg white 300.svg">
 </picture>
     <p>SUSDEG – APP COM SISTEMA DE RECOMPENSA EM PROL DA MOTIVAÇÃO E INTERAÇÃO DO MUNDO COM AS ODS </p>
 </h1>
@@ -42,7 +42,6 @@ O objetivo principal deste projeto é a criação de um aplicativo que irá faze
 ### Layout Web:
 Page desenvolvida para apresentar protótipo inicial, priorizando o [HTML Semântico](https://github.com/luruanx/Projeto-SUSDEG/blob/main/index.html) e as
 [CSS responsiva](https://github.com/luruanx/Projeto-SUSDEG/blob/main/assets/style.css).<br>
-<!-- [Clique aqui](https://luruanx.github.io/Projeto-SUSDEG/#) e veja o resultado. -->
 <br>
 <br>
 <p align="center"> 
@@ -57,10 +56,13 @@ https://github.com/luruanx/Projeto-SUSDEG/assets/155588491/d439991e-0818-4c55-97
 
 https://github.com/luruanx/Projeto-SUSDEG/assets/155588491/b47da7d0-ffbb-414e-86b4-54149cd4ec2d
 
+<br>
 
 
-</p>
+### Protótipo:
 
+Com uma interface amigável e recursos interativos, o SUSDEG visa inspirar ações positivas para um futuro mais verde e justo. Aqui está uma descrição das 10 telas iniciais que esboçam a estrutura e o funcionamento deste aplicativo revolucionário.
 
-
-
+<h1 align="center"> 
+  <img alt="imagens das interfaces do app" src="assets/img/Interface/prototipo gif.gif">
+</h1>
