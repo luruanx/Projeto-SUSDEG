@@ -9,7 +9,7 @@
 </h1>
 
 <p align="center"> 
-    <a href="###Layout-Web">Layout Web</a> |
+    <a href="#Layout-Web">Layout Web</a> |
     <a href="#Protótipo">Protótipo</a> |
     <a href="#Sobre">Sobre</a> |
     <a href="#Contato">Contato</a>
@@ -41,8 +41,9 @@ O objetivo principal deste projeto é a criação de um aplicativo que irá faze
 
 ### Layout Web:
 Page desenvolvida para apresentar protótipo inicial, priorizando o [HTML Semântico](https://github.com/luruanx/Projeto-SUSDEG/blob/main/index.html) e as
-[CSS aesponsivo](https://github.com/luruanx/Projeto-SUSDEG/blob/main/assets/style.css).<br>
+[CSS responsiva](https://github.com/luruanx/Projeto-SUSDEG/blob/main/assets/style.css).<br>
 [Clique aqui](https://luruanx.github.io/Projeto-SUSDEG/#) e veja o resultado
+<br>
 <br>
 
 https://github.com/luruanx/Projeto-SUSDEG/assets/155588491/4826d1f9-4ae0-4083-b04b-4265d9729e6c
