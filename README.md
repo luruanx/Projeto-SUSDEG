@@ -16,10 +16,10 @@
 </p>
 <br>
 
-### Resumo:
+## Resumo:
 O objetivo principal deste projeto é a criação de um aplicativo que irá fazer mudanças inconscientes, moldando o usuário que se cadastrou com o intuito de ganhar dinheiro, e assim resultando em uma mudança de princípios e crenças, que a partir da prática diária, será conscientizado do quão importante e necessário é, cada indivíduo fazer seu papel em prol de um mundo melhor! 
 
-### Desenvolvido até aqui:
+## Desenvolvido até aqui:
 
 - [x] Layout Apresentação Web
 - [x] Protótipo Design do App
@@ -27,7 +27,7 @@ O objetivo principal deste projeto é a criação de um aplicativo que irá faze
 - [ ] Monetização
 - [ ] Testes e ajustes
 
-### Tecnologias Utilizadas:
+## Tecnologias Utilizadas:
 <div style="display: inline_block">
   <img align="center" alt="logo-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="logo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -39,7 +39,7 @@ O objetivo principal deste projeto é a criação de um aplicativo que irá faze
  
 ---
 
-### Layout Web:
+## Layout Web:
 Page desenvolvida para apresentar protótipo inicial, priorizando o [HTML Semântico](https://github.com/luruanx/Projeto-SUSDEG/blob/main/index.html) e as
 [CSS responsiva](https://github.com/luruanx/Projeto-SUSDEG/blob/main/assets/style.css).<br>
 <br>
@@ -58,11 +58,34 @@ https://github.com/luruanx/Projeto-SUSDEG/assets/155588491/b47da7d0-ffbb-414e-86
 
 <br>
 
+## Protótipo:
 
-### Protótipo:
-
-Com uma interface amigável e recursos interativos, o SUSDEG visa inspirar ações positivas para um futuro mais verde e justo. Aqui está uma descrição das 10 telas iniciais que esboçam a estrutura e o funcionamento deste aplicativo revolucionário.
+Com uma interface amigável e recursos interativos, o SUSDEG visa inspirar ações positivas para um futuro mais verde e justo. Aqui está uma descrição das 10 telas iniciais que esboçam a estrutura e o funcionamento deste aplicativo revolucionário. [Clique aqui](https://www.figma.com/file/oPTfRfsUhZZTe23Hl1AQCa/SUSDEG?type=design&node-id=0%3A1&mode=design&t=aoCOeqS0BKpAdOXB-1) e vizualize no FIGMA.
 
 <div align="center"> 
   <img alt="imagens das interfaces do app" height="600" width="600" src="assets/img/Interface/prototipo gif.gif">
 </div>
+
+## Sobre:
+
+- ### Como surgiu a ideia? 
+
+  Escolher uma das 17 ODS, como tema para desenvolver um projeto usando uma tecnologia de minha preferência. Esse foi o requisito para usar a criatividade e mostrar os conhecimentos adquiridos na graduação até o momento presente (4º período). [Clique aqui](assets/pdf/Levantamento%20do%20projeto.pdf) e veja o levantamento inicial do desenvolvimento.  
+
+- ### O porque do nome **SUSDEG**?
+
+   A ideia surgiu em meio as pesquisas em conteúdos inglês, onde o **SUS** são as letras iniciais da palavra **SUSTAINABLE**, **DE** é da palavra **DEVELOPMENT** e **G** da palavra **GOALS**. 
+
+- ### Identidade Visual
+
+  **Logomarca:** Duas mãos postas em um globo, simbolizando apoio ao planeta terra, e em volta há 2 ramos de oliveira que simboliza paz e vitória. <br> <br>
+
+<div align="center">
+  <img align="center" alt="logo-susdeg" height="150" width="150" src="assets/img/logo susdeg black 200.svg">
+  <img align="center" alt="logo-susdeg" height="150" width="150" src="assets/img/logo susdeg white 200.svg">
+  <img align="center" alt="logo-susdeg" height="150" width="150" src="assets/img/logo susdeg blue 200.svg">
+</div> <br>
+
+
+- ### **Paleta de Cores:** 
+  
