@@ -42,9 +42,12 @@ O objetivo principal deste projeto é a criação de um aplicativo que irá faze
 ### Layout Web:
 Page desenvolvida para apresentar protótipo inicial, priorizando o [HTML Semântico](https://github.com/luruanx/Projeto-SUSDEG/blob/main/index.html) e as
 [CSS responsiva](https://github.com/luruanx/Projeto-SUSDEG/blob/main/assets/style.css).<br>
-[Clique aqui](https://luruanx.github.io/Projeto-SUSDEG/#) e veja o resultado
+<!-- [Clique aqui](https://luruanx.github.io/Projeto-SUSDEG/#) e veja o resultado. -->
 <br>
 <br>
+<p align="center"> 
+    <a href="https://luruanx.github.io/Projeto-SUSDEG/#">Clique aqui e veja o resultado</a>
+</p>
 
 https://github.com/luruanx/Projeto-SUSDEG/assets/155588491/4826d1f9-4ae0-4083-b04b-4265d9729e6c
 
