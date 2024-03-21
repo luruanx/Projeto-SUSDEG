@@ -47,8 +47,20 @@ Page desenvolvida para apresentar protótipo inicial, priorizando o [HTML Semân
 <br>
 <p align="center"> 
     <a href="https://luruanx.github.io/Projeto-SUSDEG/#">Clique aqui e veja o resultado</a>
+
+https://github.com/luruanx/Projeto-SUSDEG/assets/155588491/d439991e-0818-4c55-974a-e163894b0877
+
+<br>
+<br>
+<p align="center"> 
+    <a href="https://luruanx.github.io/Projeto-SUSDEG/#">Responsivo em qualquer tamanho de tela</a>
+
+https://github.com/luruanx/Projeto-SUSDEG/assets/155588491/b47da7d0-ffbb-414e-86b4-54149cd4ec2d
+
+
+
 </p>
 
-https://github.com/luruanx/Projeto-SUSDEG/assets/155588491/4826d1f9-4ae0-4083-b04b-4265d9729e6c
+
 
 
