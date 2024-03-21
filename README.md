@@ -63,6 +63,6 @@ https://github.com/luruanx/Projeto-SUSDEG/assets/155588491/b47da7d0-ffbb-414e-86
 
 Com uma interface amigável e recursos interativos, o SUSDEG visa inspirar ações positivas para um futuro mais verde e justo. Aqui está uma descrição das 10 telas iniciais que esboçam a estrutura e o funcionamento deste aplicativo revolucionário.
 
-<h1 align="center"> 
-  <img alt="imagens das interfaces do app" width="500ox" src="assets/img/Interface/prototipo gif.gif">
-</h1>
+<div align="center"> 
+  <img alt="imagens das interfaces do app" height="600" width="600" src="assets/img/Interface/prototipo gif.gif">
+</div>
