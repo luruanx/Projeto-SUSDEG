@@ -16,10 +16,10 @@
 </p>
 <br>
 
-## Resumo:
+### Resumo:
 O objetivo principal deste projeto é a criação de um aplicativo que irá fazer mudanças inconscientes, moldando o usuário que se cadastrou com o intuito de ganhar dinheiro, e assim resultando em uma mudança de princípios e crenças, que a partir da prática diária, será conscientizado do quão importante e necessário é, cada indivíduo fazer seu papel em prol de um mundo melhor! 
 
-## Desenvolvido até aqui:
+### Desenvolvido até aqui:
 
 - [x] Layout Apresentação Web
 - [x] Protótipo Design do App
@@ -27,7 +27,7 @@ O objetivo principal deste projeto é a criação de um aplicativo que irá faze
 - [ ] Monetização
 - [ ] Testes e ajustes
 
-## Tecnologias Utilizadas:
+### Tecnologias Utilizadas:
 <div style="display: inline_block">
   <img align="center" alt="logo-Js" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
   <img align="center" alt="logo-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
@@ -39,7 +39,7 @@ O objetivo principal deste projeto é a criação de um aplicativo que irá faze
  
 ---
 
-## Layout Web:
+### Layout Web:
 Page desenvolvida para apresentar protótipo inicial, priorizando o [HTML Semântico](https://github.com/luruanx/Projeto-SUSDEG/blob/main/index.html) e as
 [CSS responsiva](https://github.com/luruanx/Projeto-SUSDEG/blob/main/assets/style.css).<br>
 <br>
@@ -80,12 +80,34 @@ Com uma interface amigável e recursos interativos, o SUSDEG visa inspirar açõ
 
   **Logomarca:** Duas mãos postas em um globo, simbolizando apoio ao planeta terra, e em volta há 2 ramos de oliveira que simboliza paz e vitória. <br> <br>
 
+  <div align="center">
+    <img align="center" alt="logo-susdeg" height="150" width="150" src="assets/img/logo susdeg black 200.svg">
+    <img align="center" alt="logo-susdeg" height="150" width="150" src="assets/img/logo susdeg white 200.svg">
+    <img align="center" alt="logo-susdeg" height="150" width="150" src="assets/img/logo susdeg blue 200.svg">
+  </div> <br>
+
+  **Paleta de Cores:** 
+
+  <br> 
+  <div align="center">
+    <img align="center" alt="paleta de cor" src="assets/img/paleta de cor.png">
+  </div> <br> <br>
+
+  **Font-Family:**
+
+  <br>
 <div align="center">
-  <img align="center" alt="logo-susdeg" height="150" width="150" src="assets/img/logo susdeg black 200.svg">
-  <img align="center" alt="logo-susdeg" height="150" width="150" src="assets/img/logo susdeg white 200.svg">
-  <img align="center" alt="logo-susdeg" height="150" width="150" src="assets/img/logo susdeg blue 200.svg">
-</div> <br>
+  <img align="center" alt="font-family"width="500" src="assets/img/fonts.png">
+</div> <br> <br>
 
+---
 
-- ### **Paleta de Cores:** 
-  
+### Contato:
+
+  <div align="center">
+
+  Estou total aberto a conselhos, elogios ou sugestões. **"vivendo e aprendendo"**, dar um alô aí!!
+
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/luaanriichard/) [![Email](https://img.shields.io/badge/Email-%230077B5.svg?logo=Gmail&logoColor=white)](mailto:richard_10luan@hotmail.com)
+
+</div>
